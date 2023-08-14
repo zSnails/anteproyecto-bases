@@ -5,7 +5,7 @@ SOURCE = $(shell echo $(FILES) | sort -h)
 OUT = out/Documento.pdf
 
 $(OUT): meta.yaml $(SOURCE)
-	pandoc -t pdf -o $@ --metadata-file=$^
+	pandoc -t pdf --pdf-engine=xelatex -o $@ --metadata-file=$^
 
 show: $(OUT)
 	zathura $<

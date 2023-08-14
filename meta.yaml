@@ -3,8 +3,11 @@ classoption: stu
 author: Aaron González, Daniel Porras
 lang: es
 mainfont: Liberation Sans
+seriffont: Liberation Serif
+monofont: Liberation Mono
 title: Anteproyecto
 toc: true
+
 header-includes: |
   \professor{Leonardo Víquez Acuña}
   \duedate{\today}

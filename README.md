@@ -18,3 +18,8 @@
 - Supuestas y restricciones presentes en el proyecto
 
 - Requerimientos específicos del sistema
+
+
+# Posibles tablas de la base
+
+Matriculas, Consultas, Asistencia, Catequistas, Asistencias a Misa

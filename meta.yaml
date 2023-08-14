@@ -1,0 +1,13 @@
+documentclass: apa7
+classoption: stu
+author: Aaron González, Daniel Porras
+lang: es
+mainfont: Liberation Sans
+title: Anteproyecto
+toc: true
+header-includes: |
+  \professor{Leonardo Víquez Acuña}
+  \duedate{\today}
+  \affiliation{ITCR}
+  \course{Bases de Datos I}
+  \shorttitle{Anteproyecto}
